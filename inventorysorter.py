@@ -87,6 +87,7 @@ class InventoryApp:
             self.rarity_combobox.set('')
 
     def reset_filters(self):
+        self.search_query.set('')
         self.sort_combobox.set('')
         self.stat_combobox['state'] = 'disabled'
         self.stat_combobox
@@ -167,7 +168,6 @@ class InventoryApp:
         self.canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
 
     def on_frame_configure(self):
-        '''Reset the scroll region to encompass the inner frame'''
         self.canvas.configure(scrollregion=self.canvas.bbox("all"))
 
 if __name__ == "__main__":
