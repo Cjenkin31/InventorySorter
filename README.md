@@ -38,4 +38,4 @@ I personally won't be adding any new features to this but if you want to add som
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Cjenkin31/InventorySorter/blob/Cjenkin31-Readme-License/LICENSE) file for details.
